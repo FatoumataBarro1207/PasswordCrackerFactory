@@ -20,7 +20,7 @@ Il utilise des interfaces et des fabriques concrètes pour permettre de rajouter
 
 ## 2. Diagramme de classes UML
 
-![Diagramme UML](uml.png)
+![Diagramme UML](uml.PNG)
 
 ## 3. Choix du patron de conception et justification
 
