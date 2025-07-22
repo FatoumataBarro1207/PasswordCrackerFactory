@@ -7,6 +7,6 @@ import target.OnlineTarget;
 public class OnlineBruteForceFactory extends CrackerFactory {
     @Override
     public Cracker createCracker() {
-        return new BruteForceCracker(new OnlineTarget("http://localhost/login.php"), 5);
+        return new BruteForceCracker(new OnlineTarget("http://localhost/login.php"), 6);
     }
 }

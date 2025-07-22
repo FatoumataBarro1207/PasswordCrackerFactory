@@ -33,10 +33,10 @@ public class OnlineTarget implements Target {
             }
             in.close();
 
-            return response.toString().contains("Connexion réussie");
+            return response.toString().contains("Connexion reussie");
 
         } catch (Exception e) {
-            System.err.println("Erreur lors de la connexion à la cible en ligne : " + e.getMessage());
+            System.err.println("Erreur de connexion : " + e.getMessage());
             return false;
         }
     }

@@ -24,7 +24,7 @@ public class DictionaryCracker implements Cracker {
             }
             System.out.println("Mot de passe non trouvé dans le dictionnaire.");
         } catch (IOException e) {
-            System.err.println("Erreur de lecture du fichier dictionnaire : " + e.getMessage());
+            System.err.println("Erreur de lecture : " + e.getMessage());
         }
     }
 }

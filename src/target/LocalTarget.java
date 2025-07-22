@@ -2,7 +2,7 @@ package target;
 
 public class LocalTarget implements Target {
     private String validLogin = "admin";
-    private String validPassword = "passer1234";
+    private String validPassword = "pas123";
 
     @Override
     public boolean authenticate(String login, String password) {
